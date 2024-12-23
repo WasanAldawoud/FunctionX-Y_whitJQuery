@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Calculate</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="myscript.js"></script>
 </head>
 <body>
@@ -13,24 +14,27 @@
             <h1>Compute F(x, y)</h1>
         </div>
 
-        <div class="formContainer">
-            <label class="text">X</label>
-            <div class="inputcontainer">
-                <input type="text" id="x-value" placeholder="please enter the x"autocomplete="off" required>
-            </div>
-            <label class="text">Y</label>
-            <div class="inputcontainer">
-                <input type="text" id="y-value" placeholder="please enter the y" autocomplete="off" required>
-            </div>
-            <label class="text">Result</label>
-            <div class="inputcontainer">
-                <label id="result"> </label>
-            </div>
-            <div class="button">
-                <button  onclick="calculate()">Compute</button>
-                <button type="reset" onclick="clean()">Clear</button>
-            </div>
-        </div>
+ <div class="formContainer">
+     <label class="text">X</label>
+    <div class="inputcontainer">
+        <input type="text" id="x-value" placeholder="please enter the x"autocomplete="off" required>
+      </div>
+      
+   <label class="text">Y</label>
+     <div class="inputcontainer">
+    <input type="text" id="y-value" placeholder="please enter the y" autocomplete="off" required>
+     </div>
+
+        <label class="text">Result</label>
+        <div class="inputcontainer">
+         <label id="result"></label>
+     </div>
+     
+     <div class="button">
+        <button id="compute">Compute</button>
+        <button id="clear" type="reset">Clear</button>
+    </div>
+    
     </section>
 </body>
 </html>
