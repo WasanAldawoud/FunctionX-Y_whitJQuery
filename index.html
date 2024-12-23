@@ -9,32 +9,35 @@
     <script src="myscript.js"></script>
 </head>
 <body>
-    <section>
-        <div class="thefunction">
-            <h1>Compute F(x, y)</h1>
-        </div>
-
- <div class="formContainer">
-     <label class="text">X</label>
-    <div class="inputcontainer">
-        <input type="text" id="x-value" placeholder="please enter the x"autocomplete="off" required>
-      </div>
-      
-   <label class="text">Y</label>
-     <div class="inputcontainer">
-    <input type="text" id="y-value" placeholder="please enter the y" autocomplete="off" required>
-     </div>
-
-        <label class="text">Result</label>
-        <div class="inputcontainer">
-         <label id="result"></label>
-     </div>
-     
-     <div class="button">
-        <button id="compute">Compute</button>
-        <button id="clear" type="reset">Clear</button>
+<section>
+    <div class="thefunction">
+        <h1>Compute F(x, y)</h1>
     </div>
-    
-    </section>
+    <div class="formContainer">
+        <div class="input-group">
+            <div class="circle-label">X</div>
+            <div class="inputcontainer">
+                <input type="text" id="x-value" placeholder="Please enter X" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="input-group">
+            <div class="circle-label">Y</div>
+            <div class="inputcontainer">
+                <input type="text" id="y-value" placeholder="Please enter Y" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="input-group">
+            <div class="circle-label">R</div>
+            <div class="inputcontainer">
+                <label id="result"></label>
+            </div>
+        </div>
+        <div class="button">
+            <button id="compute">Compute</button>
+            <button id="clear" type="reset">Clear</button>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>
