@@ -34,7 +34,7 @@ section {
 .formContainer {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 20px;
 }
 
