@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, sans-serif; 
-    background: linear-gradient(to right, rgb(207, 228, 255), rgb(255, 235, 230)); /* Soft pastel gradient */
+    background: linear-gradient(to right, rgb(176, 202, 255), rgb(255, 210, 200)); 
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -19,8 +19,8 @@ section {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 350px;
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque white */
+    width: 330px;
+    background-color: rgba(255, 255, 255, 0.95); 
 }
 
 .thefunction {
@@ -28,7 +28,7 @@ section {
     text-align: center;
     margin-bottom: 30px;
     font-family: cursive;
-    color: #605e5f;
+    color: #5e5b5b; 
 }
 
 .formContainer {
@@ -50,10 +50,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgb(200, 220, 240); /* Soft pastel blue */
+    background: rgb(170, 190, 240); 
     border-radius: 50%;
     font-weight: bold;
-    color: #605e5f;
+    color: #5e5b5b; 
     font-size: 14px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -64,7 +64,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(240, 240, 255); /* Very light pastel background for the input */
+    background: rgb(225, 225, 255); 
     border-radius: 30px;
     overflow: hidden;
     cursor: pointer;
@@ -122,7 +122,7 @@ button::before {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231));
+    background-image: linear-gradient(to bottom, rgb(207, 213, 255), rgb(255, 210, 200)); 
     transition: .5s ease;
     display: block;
     z-index: -1;
