@@ -5,13 +5,14 @@
 
 body {
     font-family: Arial, sans-serif; 
-    background: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231));
+    background: linear-gradient(to right, rgb(150, 150, 255), rgb(255, 100, 150), rgb(255, 180, 80));
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;          
     justify-content: center; 
     align-items: center; 
+    overflow: hidden;
 }
 
 section {
@@ -20,7 +21,8 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 350px;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.8); 
+    backdrop-filter: blur(10px); 
 }
 
 .thefunction {
@@ -50,10 +52,10 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231));
+    background: radial-gradient(circle, rgb(255, 170, 100), rgb(255, 100, 150));
     border-radius: 50%;
     font-weight: bold;
-    color: #605e5f;
+    color: #ffffff;
     font-size: 14px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
@@ -64,7 +66,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231)); /* Keep the original background */
+    background: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231)); 
     border-radius: 30px;
     overflow: hidden;
     cursor: pointer;
