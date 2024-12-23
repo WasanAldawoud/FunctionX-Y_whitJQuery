@@ -5,14 +5,13 @@
 
 body {
     font-family: Arial, sans-serif; 
-    background: linear-gradient(to right, rgb(150, 150, 255), rgb(255, 100, 150), rgb(255, 180, 80));
+    background: linear-gradient(to right, rgb(207, 228, 255), rgb(255, 235, 230)); /* Soft pastel gradient */
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     display: flex;          
     justify-content: center; 
     align-items: center; 
-    overflow: hidden;
 }
 
 section {
@@ -21,8 +20,7 @@ section {
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 350px;
-    background-color: rgba(255, 255, 255, 0.8); 
-    backdrop-filter: blur(10px); 
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly more opaque white */
 }
 
 .thefunction {
@@ -52,12 +50,12 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(circle, rgb(255, 170, 100), rgb(255, 100, 150));
+    background: rgb(200, 220, 240); /* Soft pastel blue */
     border-radius: 50%;
     font-weight: bold;
-    color: #ffffff;
+    color: #605e5f;
     font-size: 14px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .inputcontainer {
@@ -66,7 +64,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(to bottom, rgb(227, 213, 255), rgb(255, 231, 231)); 
+    background: rgb(240, 240, 255); /* Very light pastel background for the input */
     border-radius: 30px;
     overflow: hidden;
     cursor: pointer;
